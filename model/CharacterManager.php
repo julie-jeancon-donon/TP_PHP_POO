@@ -6,7 +6,7 @@ class CharacterManager
 
         public function __construct(PDO $db)
         {
-            this->setDb($db);
+            $this->setDb($db);
         }
 
         

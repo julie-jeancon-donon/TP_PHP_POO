@@ -2,8 +2,8 @@
 
 Class Character
 {
-    private $_id;
-            $_name;
+    private $_id,
+            $_name,
             $_damage;
 
             const SELF_ATTACK = "pas taper tête à toi!";

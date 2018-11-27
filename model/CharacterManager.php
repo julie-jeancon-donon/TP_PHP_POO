@@ -37,7 +37,7 @@ class CharacterManager
             $query = $this->getDb()->prepare('INSERT INTO perso(name) VALUES(:name)');
             $query->bindValue(':name', $char->getName());
             $query->execute();
-            ])
+        
         }
 
         public function update(Character $char)
